@@ -1,0 +1,1 @@
+savedcmd_/home/one/i2c/lcd.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/one/i2c/lcd.ko /home/one/i2c/lcd.o /home/one/i2c/lcd.mod.o;  true
